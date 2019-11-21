@@ -9,11 +9,11 @@
 5. Shengchao Liu, Jianping Weng, Jessie Hui Wang, Changqing An, Yipeng Zhou, and Jilong Wang, "An Adaptive Online Scheme for Scheduling and Resource Enforcement in Storm," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1373-1386, August 2019. doi: 10.1109/TNET.2019.2918341.
 致谢：National Key Research and Development Program of China under Grant 2016YFB0801302 and the National Natural Science Foundation of China under Grant 61202356.
 
-4. Tao Yu, Yuchen Zhang, Diyue Chen, Hongyan Cui, and Jilong Wang, "Routing Loop Audit Mechanism Based on SDN," China Communications，JUL 2019, vol:16,issue:7,pp:96-108.
+4. Tao Yu, Yuchen Zhang, Diyue Chen, Hongyan Cui, and Jilong Wang, "Routing Loop Audit Mechanism Based on SDN," China Communications, JUL 2019, vol:16,issue:7,pp:96-108.
 
-3. Tao Yu, Linqing Gui, Tianxin Yu  and Jilong Wang, "Walrasian Equilibrium-based Incentive Scheme for Mobile Crowdsourcing Fingerprint Localization," Sensors, JUN 2019.
+3. Tao Yu, Linqing Gui, Tianxin Yu, and Jilong Wang, "Walrasian Equilibrium-based Incentive Scheme for Mobile Crowdsourcing Fingerprint Localization," Sensors, JUN 2019.
 
-2. Jingchun Cheng, Yali Li, Jilong Wang, Le Yu, Shengji Wang, "Exploiting Effective Facial Patches for Robust Gender Recognition," in Tsinghua Science and Technology, vol. 24, no. 3, pp. 333-345, June 2019.
+2. Jingchun Cheng, Yali Li, Jilong Wang, Le Yu, and Shengji Wang, "Exploiting Effective Facial Patches for Robust Gender Recognition," in Tsinghua Science and Technology, vol. 24, no. 3, pp. 333-345, June 2019.
 
 1. 张千里，姜彩萍，王继龙，李星，IPv6 地址结构标准化研究综述，计算机学报，第42卷第6期，2019年6月，1384-1405.
 致谢：2017YFB0503703
