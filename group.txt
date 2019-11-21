@@ -1,11 +1,17 @@
 ######   2019年期刊   ######
 
-5. Jessie Hui Wang, Jilong Wang, Changqing An and Qianli Zhang, "A Survey on Resource Scheduling for Data Transfers in Inter-Datacenter WANs," Computer Networks, vol. 161, pp. 115-137, October 2019. doi: 10.1016/j.comnet.2019.06.011.  (online 20 June 2019.)  
+8. Jessie Hui Wang, Jilong Wang, Changqing An and Qianli Zhang, "A Survey on Resource Scheduling for Data Transfers in Inter-Datacenter WANs," Computer Networks, vol. 161, pp. 115-137, October 2019. doi: 10.1016/j.comnet.2019.06.011.  (online 20 June 2019.)  
 
-4. Yuedong Xu, Zhujun Xiao, Tianyu Ni, Jessie Hui Wang, Xin Wang and Eitan Altman, "On The Robustness of Price-Anticipating Kelly Mechanism," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1558-1571, Aug. 2019. doi: 10.1109/TNET.2019.2926304.   (online 18 July 2019) 
+7. Tao Yu, Hongyan Cui, Yilong Nian, Yuchen Hong, Jilong Wang, and Honggang Zhang, "Behavior Predictability and Consistency of Mobile User’s Traffic Usage between Different Years Based on Entropy Theory," International Journal of Communication Systems, SEP 2019. 
 
-3. Shengchao Liu, Jianping Weng, Jessie Hui Wang, Changqing An, Yipeng Zhou, and Jilong Wang, "An Adaptive Online Scheme for Scheduling and Resource Enforcement in Storm," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1373-1386, August 2019. doi: 10.1109/TNET.2019.2918341.
+6. Yuedong Xu, Zhujun Xiao, Tianyu Ni, Jessie Hui Wang, Xin Wang and Eitan Altman, "On The Robustness of Price-Anticipating Kelly Mechanism," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1558-1571, Aug. 2019. doi: 10.1109/TNET.2019.2926304.   (online 18 July 2019) 
+
+5. Shengchao Liu, Jianping Weng, Jessie Hui Wang, Changqing An, Yipeng Zhou, and Jilong Wang, "An Adaptive Online Scheme for Scheduling and Resource Enforcement in Storm," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1373-1386, August 2019. doi: 10.1109/TNET.2019.2918341.
 致谢：National Key Research and Development Program of China under Grant 2016YFB0801302 and the National Natural Science Foundation of China under Grant 61202356.
+
+4. Tao Yu, Yuchen Zhang, Diyue Chen, Hongyan Cui, and Jilong Wang, "Routing Loop Audit Mechanism Based on SDN," China Communications，JUL 2019, vol:16,issue:7,pp:96-108.
+
+3. Tao Yu, Linqing Gui, Tianxin Yu  and Jilong Wang, "Walrasian Equilibrium-based Incentive Scheme for Mobile Crowdsourcing Fingerprint Localization," Sensors, JUN 2019.
 
 2. Jingchun Cheng, Yali Li, Jilong Wang, Le Yu, Shengji Wang, "Exploiting Effective Facial Patches for Robust Gender Recognition," in Tsinghua Science and Technology, vol. 24, no. 3, pp. 333-345, June 2019.
 
