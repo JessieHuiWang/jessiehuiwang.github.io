@@ -6,8 +6,10 @@
 
 6. Yuedong Xu, Zhujun Xiao, Tianyu Ni, Jessie Hui Wang, Xin Wang and Eitan Altman, "On The Robustness of Price-Anticipating Kelly Mechanism," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1558-1571, Aug. 2019. doi: 10.1109/TNET.2019.2926304.   (online 18 July 2019) 
 
-5. Shengchao Liu, Jianping Weng, Jessie Hui Wang, Changqing An, Yipeng Zhou, and Jilong Wang, "An Adaptive Online Scheme for Scheduling and Resource Enforcement in Storm," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1373-1386, August 2019. doi: 10.1109/TNET.2019.2918341.
+5. Shengchao Liu, Jianping Weng, Jessie Hui Wang, Changqing An, Yipeng Zhou, and Jilong Wang, "An Adaptive Online Scheme for Scheduling and Resource Enforcement in Storm," IEEE/ACM Transactions on Networking, vol. 27, no. 4, pp. 1373-1386, August 2019. doi: 10.1109/TNET.2019.2918341. jessiewang@tsinghua.edu.cn (SCI 2018: 3.597)
 致谢：National Key Research and Development Program of China under Grant 2016YFB0801302 and the National Natural Science Foundation of China under Grant 61202356.
+单位：[ 1 ] Tsinghua Univ, Inst Network Sci & Cyberspace, Beijing 100084, Peoples R China
+     [ 2 ] Beijing Natl Res Ctr Informat Sci & Technol, Beijing 100084, Peoples R China
 
 4. Tao Yu, Yuchen Zhang, Diyue Chen, Hongyan Cui, and Jilong Wang, "Routing Loop Audit Mechanism Based on SDN," China Communications, JUL 2019, vol:16,issue:7,pp:96-108.
 
