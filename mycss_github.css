@@ -8,6 +8,18 @@ body.Palatino {
 	margin: 20px 0px 20px 20px;
 }
 
+.huge {
+	font-size:20px; 
+	font-weight:bold; 
+	color:red;
+}
+
+.large {
+	font-size:18px; 
+	font-weight:bold; 
+	color:DarkCyan;
+}
+
 .larger {
 	font-size:18px; 
 	font-weight:bold; 
