@@ -6,6 +6,7 @@ body.Palatino {
 	font-family:Palatino; 
 	font-size:16px; 
 	margin: 20px 0px 20px 20px;
+	line-height:24px; 
 }
 
 .huge {
@@ -20,10 +21,9 @@ body.Palatino {
 	color:DarkCyan;
 }
 
-.larger {
-	font-size:18px; 
+.bold {
+	font-size:16px; 
 	font-weight:bold; 
-	color:DarkCyan;
 }
 
 p {
@@ -34,4 +34,9 @@ p {
 li {
 	line-height:24px; 
 	margin:6px 0px;
+}
+
+div.txt {
+	margin-left:16px; 
+	
 }
