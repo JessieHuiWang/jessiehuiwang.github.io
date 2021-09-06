@@ -42,7 +42,8 @@
 </ul>
 -->
 
-<div style="margin: 0 0 2em 2em"> 
+<div style="margin: 0em 10em 2em 10em"> 
+	<p class="large">1. Understanding and Evaluating the Internet Routing </p> 
 	<p>The Internet has been extremely important for everyone. However, as a large-scale distributed system without centralized authoritative control, the Internet is so complicated that people cannot accurately map its topology and routing, not to mention understanding and predicting its reactions to various changes potentially conducted by differnt parties in the Internet. Basically, we are curious about the following questions:   </p>
 	<p>1) Can we have a (more) complete and accurate AS-level Internet topology? How far are we from a complete and accurate AS-level Internet map? </p>
 	<p>2) Which nodes/links are crucial in the Internet map? Definitely the cruciality/significance of a node/link would be different for different parties and in different scenarios. </p>
@@ -50,5 +51,18 @@
 	<p>4) Assuming we have had a good Internet routing map, can we predict the Nash Equilibrium of a game in which two players in the Internet try to control routing paths using any techinical or business approaches? </p> 
 </div>
 
+<div align="center"><img src="files/framework.png" alt="research framework of CyberMap" width="60%">
+</div>
+
+<div style="margin: 0em 16em 2em 16em">This research is supported by NSFC 62072269 (A Study on the Risk of Inter-Nation Surveillance and the Evasion Game in the Internet Routing, 2021.01-2024.12).</div>
+<p> </p>
+
+
+<div style="margin: 0em 10em 2em 10em"> 
+	<p class="large">2. Improving the Traffic Performance for Applications  in the Internet. </p> 
+	<p>It is well-known that current interdomain routing in the Internet is mainly for ISPs' business considerations, and performance is not the first priority when making routing decisions.  As a result, the resulting paths may not be optimal in terms of performance, such as latency, jitter, loss and throughput. Meanwhile, the Internet is a "best effort" network, which means it does not provide any performance guarantee. However, users of most services/applications are performance-senstive, so applications in the Internet do need a kind of end-to-end communication services with optimal performance or with guaranteed performance. </p>
+	<p>About two decades ago, researchers proposed the concept of "application-layer routing" or "apllication-layer traffic optimization" (ALTO) and tried to help applications improve their communication performance. At that time, the main concern was how to find a better overlay path and avoid the interference between underlay routing and overlay routing. In recent years, there have been more and more computation/storage resources in the Internet (aka clouds), and more and more applications become computation-intensive. As a result, application-layer traffic optimization does not only involve application-layer routing, but also involves caching (trade storage for better networking performance) and coding (trade computation for better networking performance).  </p>
+	<p>We aim to provide Internet-scale end-to-end communication services with soft guarantees for various applications, especially for latency-sensitve applications and the content delivery of VR live streaming.  
+	 <p>This research is supported by Huawei Ltd. (Overlay Routing Strategies Towards Cross-domain End-to-End Communication with Soft Guarantees, starting from Aug. 2021) </p>
 </body>
 </html>
