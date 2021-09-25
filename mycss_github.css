@@ -40,3 +40,13 @@ div.txt {
 	margin-left:16px; 
 	
 }
+
+.base {
+    background-color: lightgreen;
+    color: red;
+    border-radius: 9%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px;
+	font-size:12px; 
+}
