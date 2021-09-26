@@ -80,6 +80,14 @@
 <table style="width:80%; border-collapse:collapse">
 
 <tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[TON, under revision] </br></br><label class="base">Scheduling</label></br></br><label class="base">Edge Computing</label></br></br><label class="base">Content Distribution</label></br></br><label class="base">Vehicle Network</label></td>
+    <td><div align="left"><img src="pics/vnet.png" width="90%">
+  <p>Chao Xu, <b>Jessie Hui Wang</b>, Yipeng Zhou, Yuedong Xu, Changqing An, Jilong Wang, "Offloading Elastic Transfers to Opportunistic Vehicular Networks Based on  Imperfect Trajectory Prediction," <i>IEEE/ACM Transactions on Networking</i>. (under revision.) </br>
+  <p style="text-indent:2em">Due to the high cost of cellular networks, vehicle users would like to offload elastic traffic through vehicular networks as much as possible. This demand prompts researchers to consider how to make the vehicular network system achieve better performance for requests coming online, such as maximizing throughput. The traffic in vehicular networks is transferred through opportunistic contacts between vehicles and infrastructures. When making scheduling decisions, the scheduler must be aware of vehicles' future trajectories. Vehicles' future trajectories are usually predicted by trajectory prediction algorithms when users are not willing to report their future trips. Unfortunately, no trajectory prediction algorithm can be completely accurate, and these inaccurate prediction results will reduce the throughput. In this paper, we focus on overcoming this challenge. Specifically, we first measure the LSTM (Long Short Term Memory) prediction method that has been widely used recently and understand the accuracy of predicted contacts. Then, based on the enlightenment from the measurement, we design a system, i.e., i-Offload, to offload elastic traffic under an imperfect trajectory prediction algorithm. The experimental results show that our method still has good throughput and scheduling efficiency under an imperfect prediction algorithm. Compared with an existing scheduling method, our method outperforms it by 42% and 45% in terms of scheduling throughput and scheduling efficiency, respectively.</p >
+</td>
+  </tr>
+
+<tr style="border-bottom:1px solid black">
     <td style="width:20%; text-align: center">[TON 2021] </br></br><label class="base">Scheduling</label></br></br><label class="base">Edge Computing</label></br></br><label class="base">AI Inference</label></td>
     <td><div align="left"></br><img src="pics/2021TON_Video.png" width="80%">
   <p>Chenghao Rong, <b>Jessie Hui Wang</b>, Juncai Liu, Jilong Wang, Fenghua Li, and Xiaolei Huang, "Scheduling Massive Camera Streams to Optimize Large-scale Live Video Analytics," <i>IEEE/ACM Transactions on Networking</i>. (minor revision.)  <a href="files/2021TON_Video.pdf">paper</a></br>
@@ -151,30 +159,7 @@
   </tr>
 </table>
 
-</br>
-<ul>
-<li><b><font color=blue>Internet Performance</font></b>
-</ul>
-
-<table style="width:80%; border-collapse:collapse">
 	
-<tr style="border-bottom:1px solid black">
-    <td style="width:20%; text-align: center">[CN 2020] </br></br><label class="base">Internet</label></br></br><label class="base">Measurement</label></td>
-    <td></br><div align="left"><img src="pics/2020CN.png" width="80%">
-		<p>Shuying Zhuang, <b>Jessie Hui Wang</b>, Pei Zhang , Jilong Wang , "Understanding the latency to visit websites in China: an infrastructure perspective," <i>CN 2020</i>, Volume 169, 14 March 2020. <a href="files/2020CN_MeasureChina.pdf">paper</a></br>
-		<p style="text-indent:2em">As the Internet becomes more and more widely used in our daily life, its latency has been regarded as a truly critical issue for various Internet applications. Researchers propose an ambitious goal to pursue “Speed-of-Light Internet”. However, there is a large gap between the reality and the goal, and a lot of infrastructure inefficiency caused by simple issues has been observed in some developing or rural regions. In this article, we conduct a measurement study on the latency to visit more than 638K websites in China from five well-connected vantage points, and examine the unnecessary latency caused by the inefficiency of DNS infrastructure and Internet routing infrastructure in China. We find that DNS resolution is the most significant contributor to the overall latency and investigate several important factors that affect DNS latency, i.e., caching, CNAME and delegation. In terms of Internet routing infrastructure in China, we observe that 1) the inter-domain routing in China relies too heavily on the three oldest IXPs while the newly deployed IXPs are under-used significantly, which results in unnecessary routing circuitousness; and 2) most congested links are the links connecting cities with IXPs and these links should be upgraded or utilized with more efficient traffic engineering systems. Furthermore, in order to compute circuitousness ratios and locate congested links, we also propose a method to geolocate IP addresses in China more accurately and we make the geolocation results for IP addresses under the study of this work publicly accessible to facilitate future research efforts.</p>
-</td>
-  </tr>
-
-<tr style="border-bottom:1px solid black">
-    <td style="width:20%; text-align: center">[IWQoS 2019] </br></br><label class="base">Internet</label></br></br><label class="base">Measurement</label></td>
-    <td></br><div align="left"><img src="pics/2019IWQOS_CDN.png" width="80%">
-		<p>JingAn Xue, Weizhen Dang, Haibo Wang, Jilong Wang, <b>Jessie Hui Wang</b>, "Evaluating Performance and Inefficient Routing of an Anycast CDN," <i>IWQoS 2019</i>. <a href="files/2019IWQoS_AnycastCDN.pdf">paper</a></br>
-		<p style="text-indent:2em">Anycast has been increasingly deployed for content delivery networks to map clients to their nearby replicas, which relies on the underlying routing. However, the simplicity of operation comes at cost of less precise client-mapping control. Although many works have measured anycast DNS, anycast CDNs, with different service goals and engineering, are still not fully understood. In this paper, we design novel methods and combine large-scale traceroute and HTTP measurement to evaluate the overall client-proximity and inefficient routing of the largest anycast CDN, Cloudflare. We find that 90% paths traverse only 2-4 ASes, which highlights its direct networks providers. By further identifying and characterizing direct providers at finer granularity of facilities, we quantitatively shows that Cloudflare unevenly uses few large transit providers to delivery the majority of contents. Inspired by the observations, we propose an anycast routing pathology and diagnosis methodology. Investigation reveals that few huge providers have outsized impact in that they are not only related to many inter-domain inflations, but also have path inflation inside their own networks, thus deserving priority focus when troubleshooting.</p>
-</td>
-  </tr>	
-	
-</table>	
 
 
 
