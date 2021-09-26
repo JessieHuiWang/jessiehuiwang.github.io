@@ -70,6 +70,129 @@
 <div style="margin: 0em 16em 2em 16em"><em>	This research is supported by Huawei Ltd. (Overlay Routing Strategies Towards Cross-domain End-to-End Communication with Soft Guarantees, starting from Aug. 2021)</em></div>
 
 
+<div style="margin: 0em 10em 2em 10em">
+<p class="large">Details of Some Publications</p>
+
+<ul>
+<li><b><font color=blue>Resource Scheduling in Distributed Systems</font></b>
+</ul>
+
+<table style="width:80%; border-collapse:collapse">
+
+<tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[TON 2021] </br></br><label class="base">Scheduling</label></br></br><label class="base">Edge Computing</label></br></br><label class="base">AI Inference</label></td>
+    <td><div align="left"></br><img src="pics/2021TON_Video.png" width="80%">
+  <p>Chenghao Rong, <b>Jessie Hui Wang</b>, Juncai Liu, Jilong Wang, Fenghua Li, and Xiaolei Huang, "Scheduling Massive Camera Streams to Optimize Large-scale Live Video Analytics," <i>IEEE/ACM Transactions on Networking</i>. (minor revision.)  <a href="files/2021TON_Video.pdf">paper</a></br>
+  <p style="text-indent:2em">In smart cities, a city deploys an infrastructure and departments submit requests to access and analyze videos for their own purposes. The live analytics of massive streams is computation-intensive and the tasks might be latency-critical, which makes scheduling massive streams to optimize all tasks an essential and challenging work. We exploit an end-edge-cloud architecture and propose an adaptive system to schedule the massive camera streams and tasks, which considers all factors affecting the computation and networking resource consumption, e.g., sharing of model computation, video quality, model partition, and task placement. Particularly, the resource consumption of Faster R-CNN + ResNet101 under each partition scheme is profiled for the first time and we notice the partition must be used together with lossless compression techniques to be beneficial. Furthermore, sometimes tasks might be required to migrate because the scheduling decision made by the system changes to adapt to the changing resource supply and demand. In order to avoid the performance degradation during migration, we propose a nondestructive migration scheme and implement it in the system. Simulations demonstrate our system achieves a total utility close to the maximum and our analytics system performs better than state-of-the-art solutions.</p>
+</td>
+  </tr>
+
+<tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[CN 2021]</br></br><label class="base">Scheduling</label></br></br><label class="base">Distributed System</label></br></br><label class="base">MLSys</label></td>
+    <td></br><div align="left"><img src="pics/2021CN_FedPA.png" alt="FedPA system overview" width="50%">
+		<p>Juncai Liu, <b>Jessie Hui Wang</b>, Chenghao Rong, Yuedong Xu, Tao Yu, and Jilong Wang, "FedPA: an Adaptively Partial Model Aggregation Strategy in Federated Learning," <i>Computer Networks</i>. <a href="files/2021CN_FedPA.pdf">Paper</a> <a href="https://doi.org/10.1016/j.comnet.2021.108468">[@ScienceDirect]</a></p>
+       <p style="text-indent:2em">Federated Learning has sparked increasing interest as a promising approach to utilize large amounts of data stored on network edge devices. In Federated Averaging, the server keeps waiting for client models to compute the global model in each round unless all client models are received or a pre-configured timer expires, therefore it suffers seriously from participant devices with weak computation and/or communication capability, which is a kind of straggler problem. </p>
+		<p style="text-indent:2em">In this paper we design FedPA, a framework based on partial model aggregation strategy, in which the server waits for only an appropriate number of device models (referred to as aggregation number) in each round. Our experiment shows that the accuracy loss of the aggregated global model in a single round is not significant if the aggregation number is decided carefully. We propose a waiting strategy to determine the aggregation number for each round dynamically and the aggregation number is adaptive to achieve a tradeoff between single-round training time and the expected number of rounds to reach the target accuracy. Stale models are also included during aggregation when they arrive, and their positive value and negative effect are carefully evaluated and reflected in the aggregation strategy. Experiments show that FedPA outperforms the baseline strategy FedAvg and other three algorithms named FedAsync, FLANP and AD-SG. It can work well in all scenarios with different distributions of data samples (characterized by non-IID ratio) and computation/communication capability (characterized by level of heterogeneity) among devices. Experiments also show that FedPA is robust when a certain amount of noise is added into the input from clients for privacy concerns.</p></div>
+	</td>
+</tr>
+
+<tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[TON 2019] </br></br><label class="base">Scheduling</label></br></br><label class="base">Streaming Computing</label></br></br><label class="base">Storm</label</td>
+    <td><div align="left"></br><img src="pics/2019TON_Storm.png" width="80%">
+  <p>Shengchao Liu, Jianping Weng, <b>Jessie Hui Wang</b>, Changqing An, Yipeng Zhou, and Jilong Wang, "An Adaptive Online Scheme for Scheduling and Resource Enforcement in Storm," <i>IEEE/ACM Transactions on Networking</i>, vol. 27, no. 4, pp. 1373-1386. <a href="files/2019TON_Storm.pdf">paper</a></br>
+  <p style="text-indent:2em">As more and more applications need to analyze unbounded data streams in a real time manner, data stream processing platforms have drawn attention of many researchers, especially the scheduling problem. However, there are still many challenges unnoticed or unsolved. In this paper, we propose and implement an adaptive online scheme to solve three important challenges of scheduling. First, how to make scaling decision in a real time manner to handle fluctuant load without congestion? Second, how to minimize the number of affected workers during rescheduling while satisfying the resource demand of each instance? We also point out that stateful instances should not be placed on the same worker with stateless instances. Third, currently the application performance cannot be guaranteed because of resource contention even if the computation platform implements an optimal scheduling algorithm. In this paper, we realize resource isolation using Cgroup, and then the performance interference caused by resource contention is mitigated. We implement our scheduling scheme and plug it into Storm, and our experiments demonstrate in some respects our scheme achieves better performance than state-of-the-art solutions.</p>
+</td>
+  </tr>
+
+<tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[TON 2019] </br></br><label class="base">Resource Allocation</label></br></br><label class="base">Game Theory </label></td>
+    <td><p>Yuedong Xu, Zhujun Xiao, Tianyu Ni, <b>Jessie Hui Wang</b>, Xin Wang and Eitan Altman, "On The Robustness of Price-Anticipating Kelly Mechanism," <i>IEEE/ACM Transactions on Networking</i>, vol. 27, no. 4, pp. 1558-1571, Aug. 2019. <a href="files/2019TON_robustnessofKelly.pdf">[paper]</a>&nbsp; <a href="https://ieeexplore.ieee.org/document/8766145/">[@IEEE]</a></p>
+		<p style="text-indent:2em"> The price-anticipating Kelly mechanism (PAKM) is one of the most extensively used strategies to allocate divisible resources for strategic users in communication networks and computing systems. The users are deemed as selfish and also benign, each of which maximizes his individual utility of the allocated resources minus his payment to the network operator. However, in many applications a user can use his payment to reduce the utilities of his opponents, thus playing a misbehaving role. It remains mysterious to what extent the misbehaving user can damage or influence the performance of benign users and the network operator.</p>
+		<p style="text-indent:2em">In this work, we formulate a non-cooperative game consisting of a finite amount of benign users and one misbehaving user. The network operator allocates resources to all the users via the price-anticipating Kelly mechanism. We present six important performance metrics with regard to the total utility and the total net utility of benign users, and the revenue of network operator under three different scenarios: with and without the misbehaving user, and the maximum. We quantify the robustness of PAKM against the misbehaving actions by deriving the upper and lower bounds of these metrics. With new approaches, all the theoretical bounds are applicable to an arbitrary population of benign users. Our study reveals two important insights: i) the performance bounds are very sensitive to the misbehaving user’s willingness to pay at certain ranges; ii) the network operator acquires more revenues in the presence of the misbehaving user which might disincentivize his countermeasures against the misbehaving actions.</p>
+	</td>
+</tr>
+	
+  <tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[TON 2018] </br></br><label class="base">Cloud</label></br></br><label class="base">Performance Interference</label></td>
+    <td><div align="left"><img src="pics/2018TON.png" width="80%">
+  	<p>Jianping Weng, <b>Jessie Hui Wang</b>, Jiahai Yang, and Yang Yang, "Root Cause Analysis of Anomalies of Multitier Services in Public Clouds," <i>IEEE/ACM Transactions on Networking</i>, vol. 26, no. 4, pp. 1646-1659, 2018. <a href="files/2018TON_root.pdf">paper</a ></br>
+  	<p style="text-indent:2em">Anomalies of multitier services of one tenant running in cloud platform can be caused by the tenant’s own components or performance interference from other tenants. If the performance of a multitier service degrades, we need to find out the root causes precisely to recover the service as soon as possible. In this paper, we argue that the cloud providers are in a better position than the tenants to solve this problem, and the solution should be non-intrusive to tenants’ services or applications. Based on these two considerations, we propose a solution for cloud providers to help tenants to localize root causes of any anomaly. With the help of our solution, cloud operators can find out root causes of any anomaly no matter the root causes are in the same tenant as the anomaly or from other tenants. Particularly, we elaborate a non-intrusive method to capture the dependency relationships of components, which improves the feasibility. During localization, we exploit measurement data of both application layer and underlay infrastructure, and our two-step localization algorithm also includes a random walk procedure to model anomaly propagation probability. These techniques improve the accuracy of our root causes localization. Our small-scale realworld experiments and large-scale simulation experiments show a 15%–71% improvement in mean average precision compared with the current methods in different scenarios.</p>
+</td>
+</tr>
+</table>
+
+
+</br>
+<ul>
+<li><b><font color=blue>Network Management (Campus Network)</font></b>
+</ul>
+
+<table style="width:80%; border-collapse:collapse">
+
+  <tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[TON 2020] 
+	  	</br></br><label class="base">Network Management</label>
+	  	</br></br><label class="base">Campus Network</label>
+    </td>
+    <td>
+    	<div align="left"><img src="pics/2020TON_DHCP.png" alt="the architecture of network communication in TWLAN." width="60%">
+				<p>Haibo Wang, <b>Jessie Hui Wang</b>, Jilong Wang, Weizhen Dang, Jing'an Xue, Fenghua Li and Jinzhe Shan, "Squeezing the Gap: An Empirical Study on DHCP Performance in a Large-Scale Wireless Network," <i>IEEE/ACM Transactions on Networking</i>, vol. 28, no. 2, pp. 832 - 845, April 2020. <a href="https://ieeexplore.ieee.org/document/9027913">[@IEEE]</a></p>
+				<p style="text-indent:2em">  Dynamic Host Configuration Protocol (DHCP) is widely used to dynamically assign IP addresses to users. However, due to little knowledge on the behavior and performance of DHCP, it is challenging to configure lease time and divide IP addresses for address pools properly in large-scale wireless networks. In this paper, we conduct the largest known measurement on the behavior and performance of DHCP in the wireless network of T University (TWLAN). We find the performance of DHCP is far from satisfactory: (1) The non-authenticated devices lead to a waste of 25% of addresses at the rush hour. (2) Address pool utilization varies greatly under the current address division strategy. (3) A device does not generate traffic for 67% of the lease time on average. Meanwhile, we observe devices of different locations and operating systems show diverse online patterns. To address the problems, taking account of authentication information and online patterns, we propose a new leasing strategy. The results show it outperforms three state-of-the-art baselines and reduces the number of assigned addresses by 24% and the average total lease time by 17% without significantly increasing the DHCP server load. Besides, we further propose an adaptive address division strategy to balance the address utilization of pools.</p>
+	</div>
+	</td>
+</tr>
+
+  <tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[ICNP 2019] </br></br><label class="base">Network Management</label></br></br><label class="base">Campus Network</label></td>
+    <td></br><div align="left"><img src="pics/2019ICNP_BDAC.png" width="90%">
+	<p>Congcong Miao, Jilong Wang, Tianying Ji, <b> Hui Wang </b>, Chao Xu, Fenghua Li, Fengyuan Ren," BDAC: A Behavior-aware Dynamic Adaptive Configuration on DHCP in Wireless LANs," <i> ICNP 2019</i>. <a href="files/2019ICNP_BDAC.pdf">paper</a></p>
+		<p style="text-indent:2em">DHCP is widely used to dynamically allocate IP addresses to the devices on local area networks, but the explosive increases of WiFi devices and their frequent mobility pose great challenges on DHCP performance in wireless LANs. In this paper, by analyzing large scale real network traces, we observe that the dynamic WiFi user behavior (e.g., online time pattern and spatio-temporal mobility pattern) leads to the poor DHCP performance. The IP pools in some VLANs have been exhausted in rush hours although the total IP utilization in WLAN is only 24%. Therefore, we have to configure IP lease times and IP pools dynamically and make sure that they are adaptive to the WiFi user behavior. In order to achieve this goal, we characterize and model the user behavior across online time pattern and spatio- temporal mobility pattern. Then we propose BDAC, a behavior- aware dynamic adaptive configuration, which is combined of two strategies: adaptive IP lease time configuration and dynamic IP pool configuration. The former is to set adaptive lease times across user roles and area types based on online time pattern to reclaim IP addresses in time and reduce the peak IP usage, while the latter dynamically migrates the IP addresses across VLANs based on spatio-temporal mobility correlation to save the IP addresses. Using the real network traces of a different week, we conduct experiments to evaluate the performance of BDAC. Results show that BDAC can save up to 60% of IP addresses and the actual IP utilization rises from 24% to 59%. Furthermore, BDAC maintains high IP utilization when the number of VLANs in a WLAN increases. </p>
+</td>
+  </tr>
+</table>
+
+</br>
+<ul>
+<li><b><font color=blue>Internet Performance</font></b>
+</ul>
+
+<table style="width:80%; border-collapse:collapse">
+	
+<tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[CN 2020] </br></br><label class="base">Internet</label></br></br><label class="base">Measurement</label></td>
+    <td></br><div align="left"><img src="pics/2020CN.png" width="80%">
+		<p>Shuying Zhuang, <b>Jessie Hui Wang</b>, Pei Zhang , Jilong Wang , "Understanding the latency to visit websites in China: an infrastructure perspective," <i>CN 2020</i>, Volume 169, 14 March 2020. <a href="files/2020CN_MeasureChina.pdf">paper</a></br>
+		<p style="text-indent:2em">As the Internet becomes more and more widely used in our daily life, its latency has been regarded as a truly critical issue for various Internet applications. Researchers propose an ambitious goal to pursue “Speed-of-Light Internet”. However, there is a large gap between the reality and the goal, and a lot of infrastructure inefficiency caused by simple issues has been observed in some developing or rural regions. In this article, we conduct a measurement study on the latency to visit more than 638K websites in China from five well-connected vantage points, and examine the unnecessary latency caused by the inefficiency of DNS infrastructure and Internet routing infrastructure in China. We find that DNS resolution is the most significant contributor to the overall latency and investigate several important factors that affect DNS latency, i.e., caching, CNAME and delegation. In terms of Internet routing infrastructure in China, we observe that 1) the inter-domain routing in China relies too heavily on the three oldest IXPs while the newly deployed IXPs are under-used significantly, which results in unnecessary routing circuitousness; and 2) most congested links are the links connecting cities with IXPs and these links should be upgraded or utilized with more efficient traffic engineering systems. Furthermore, in order to compute circuitousness ratios and locate congested links, we also propose a method to geolocate IP addresses in China more accurately and we make the geolocation results for IP addresses under the study of this work publicly accessible to facilitate future research efforts.</p>
+</td>
+  </tr>
+
+<tr style="border-bottom:1px solid black">
+    <td style="width:20%; text-align: center">[IWQoS 2019] </br></br><label class="base">Internet</label></br></br><label class="base">Measurement</label></td>
+    <td></br><div align="left"><img src="pics/2019IWQOS_CDN.png" width="80%">
+		<p>JingAn Xue, Weizhen Dang, Haibo Wang, Jilong Wang, <b>Jessie Hui Wang</b>, "Evaluating Performance and Inefficient Routing of an Anycast CDN," <i>IWQoS 2019</i>. <a href="files/2019IWQoS_AnycastCDN.pdf">paper</a></br>
+		<p style="text-indent:2em">Anycast has been increasingly deployed for content delivery networks to map clients to their nearby replicas, which relies on the underlying routing. However, the simplicity of operation comes at cost of less precise client-mapping control. Although many works have measured anycast DNS, anycast CDNs, with different service goals and engineering, are still not fully understood. In this paper, we design novel methods and combine large-scale traceroute and HTTP measurement to evaluate the overall client-proximity and inefficient routing of the largest anycast CDN, Cloudflare. We find that 90% paths traverse only 2-4 ASes, which highlights its direct networks providers. By further identifying and characterizing direct providers at finer granularity of facilities, we quantitatively shows that Cloudflare unevenly uses few large transit providers to delivery the majority of contents. Inspired by the observations, we propose an anycast routing pathology and diagnosis methodology. Investigation reveals that few huge providers have outsized impact in that they are not only related to many inter-domain inflations, but also have path inflation inside their own networks, thus deserving priority focus when troubleshooting.</p>
+</td>
+  </tr>	
+	
+</table>	
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!---
 <div style="margin: 0em 10em 2em 10em"> 
 	<p class="bold">1. Prediction </p> 
